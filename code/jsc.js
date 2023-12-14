@@ -203,6 +203,10 @@ function pertanyaan() {
   }
 }
 
+function faceoffwrong() {
+  sfxsalah.play();
+}
+
 document.onkeydown = function (e) {
   switch (e.keyCode) {
     case 49: //ini kode untuk jawaban 1
@@ -249,6 +253,9 @@ document.onkeydown = function (e) {
 
     case 81:
       pertanyaan();
+
+      case 87:
+      faceoffwrong();
   }
 };
 
