@@ -251,10 +251,11 @@ document.onkeydown = function (e) {
     case 39:
       scorkanan();
 
-    case 81:
+    case 80:
       pertanyaan();
+      break;
 
-      case 87:
+      case 83:
       faceoffwrong();
   }
 };
